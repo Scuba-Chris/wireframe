@@ -1,91 +1,60 @@
-*{
-  outline: 1px dotted orange;
+    * {
+    outline: 1px dotted orange;
 }
 
-.main_page{
-  width: 960px;
-  margin: 0 auto;
+header {
+    outline: 1px dotted orange;
+    background-color: gray;
 }
 
-body{
-  outline: 1px dotted orange;
+body {
+    outline: 1px dotted orange;
 }
 
-
-header{
-  outline: 1px dotted orange;
-  background-color: gray;
-  margin: 1em auto;
-  overflow: hidden;
-}
-#top_left{
-  padding-left: 83px;
-  display: block;
-  float: left;
+#header_section {
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
-nav{
-  text-align: center;
-  font-size: 1em;
-  margin: auto;
-  position: relative;
+#pic_200x70 {
+    margin: 0 auto;
 }
 
-nav > ul{
-  list-style-type: none;
-  margin-right: 50px;
+nav>ul>li {
+    display: inline-block;
+    outline: 1px dotted orange;
+    text-align: center;
 }
 
-nav > ul > li{
-  display: inline-block;
-  outline: 1px dotted orange;
-  text-align: center;
-  text-align: center;
-  top: 30px;
-  margin: 30px;
-  height: 50%;
-}
-  
-#pic_960{
-  display: block;
-  width: 960px;
-  margin: auto;
-  width: 50%;
+.main_page {
+    width: 960px;
+    margin: 0 auto;
+    background-color: blue;
 }
 
-#the_blocks{
-  display: inline-block;
-  margin: 20px;
-  vertical-align: middle;
+#pic_960 {
+    margin-bottom: 30px;
 }
 
-.three_boxes{
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  width: 300px;
+#the_boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.three_boxes:nth-child(2){
-  padding-left: 20px;
-  padding-right: 20px;
+#bottom-level {
+    display: flex;
+    justify-content: space-between;
 }
 
-.three_boxes:nth-child(1){
-  padding-left: 300px;
+#text-box {
+    width: 450px;
+    float: right;
 }
 
-#text{
-  float: right;
-
-}
-footer{
-  background-color: gray;
-  bottom: 1000px;
-  line-height: 100px;
-  color:gray;
-}
-
-#second_box{
-  padding-left: 341px;
-}
+footer {
+    background-color: gray;
+    bottom: 1000px;
+    line-height: 100px;
+    color: gray;
